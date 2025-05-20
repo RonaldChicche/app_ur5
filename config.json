@@ -1,0 +1,7 @@
+{
+  "campos": [
+    {"label": "Nombre", "type": "entry"},
+    {"label": "Edad", "type": "entry"},
+    {"label": "Género", "type": "dropdown", "options": ["Masculino", "Femenino", "Otro"]}
+  ]
+}
