@@ -1,7 +1,30 @@
 {
-  "campos": [
-    {"label": "Nombre", "type": "entry"},
-    {"label": "Edad", "type": "entry"},
-    {"label": "Género", "type": "dropdown", "options": ["Masculino", "Femenino", "Otro"]}
-  ]
+  "os": "Windows",
+  "base_dir": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5",
+  "scripts_dir": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts",
+  "assets_dir": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\assets",
+  "IP_HOST": "192.168.10.37",
+  "COM_STATE": false,
+  "rutas": {
+    "home": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\home_virtual.script",
+    "rutinas": {
+      "sec_01": {
+        "go": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_01_go.script",
+        "set": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_01_set.script"
+      },
+      "sec_02": {
+        "go": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_02_go.script",
+        "set": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_02_set.script"
+      },
+      "sec_03": {
+        "go": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_03_go.script",
+        "set": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_03_set.script"
+      },
+      "sec_04": {
+        "go": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_04_go.script",
+        "set": "C:\\Users\\ronal\\OneDrive\\Documentos\\Projects\\app_ur5\\scripts\\sec_04_set.script"
+      }
+    }
+  },
+  "robot_ip": "192.168.10.37"
 }
